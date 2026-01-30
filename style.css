@@ -7,3 +7,18 @@ body {
   /* background: color image no-repeat */
   background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
 }
+
+#container {
+  width: 360px;
+  border: 2px solid red;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+  display: inline;
+}

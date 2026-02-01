@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* background-image: url("./assets/assets/bg-mobile.jpg");
   background-size: no-repeat;
@@ -5,20 +11,32 @@ body {
   background-size: cover; */
 
   /* background: color image no-repeat */
+
   background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
 }
 
 #container {
   width: 360px;
-  border: 2px solid red;
-  margin: auto;
+  /* border: 2px solid red; */
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
   width: 112px;
   display: inline;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
